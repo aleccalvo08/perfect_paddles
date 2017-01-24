@@ -1,13 +1,102 @@
-h1  {
-  color: violet;
-  font-size: 72px;
+body {
+  font-family: karla, sans-serif;
+  font-size: 16px;
 }
 
 .marvel{
-  color: red;
+  color: white;
+  font-family: karla, sans-serif;
 }
 
-.spidey{
-  font-size: 35px;
+.uno{
+  color: white;
+  font-size: 20px;
+  font-family: karla, sans-serif;
+  text-transform: uppercase;
 
+}
+
+.dos{
+  color: white;
+  font-size: 50px;
+  font-family: Pacifico, cursive;
+
+
+}
+
+.tres{
+  font-size: 40px;
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+header img {
+  max-width: 30%;
+}
+
+nav ul {
+  padding-top: 1cm 0;
+  list-style: none;
+  margin: 0 auto;
+
+}
+
+nav ul li{
+text-transform: uppercase;
+display: inline-block;
+padding: 20px 161px;
+
+}
+
+nav ul li a{
+  color: white;
+
+}
+
+/*.kahon1{
+  background-color: black;
+  background-image: url("../p1-assets/images/kayak-bkgd.jpg");
+  background-position: center;
+  width: auto;
+  height: 750px;
+  text-align: center;
+  margin: auto;
+}*/
+
+.banner{
+  background: linear-gradient(to top,
+    rgba(0, 0, 0, .35)0%,
+    rgba(0, 0, 0, .25)100%
+    ),
+    url("../p1-assets/images/kayak-bkgd.jpg")
+}
+
+.kahon2{
+  background-color: black;
+  opacity: 0.75;
+}
+
+.sbutton{
+  background-color: #e2574c;
+}
+
+.about {
+  font-size: 30px;
+  font-family: pacifico, cursive;
+}
+
+.about p{
+  font-family: karla;
+  font-size: 20px;
+}
+
+.rentals {
+  font-size: 30px;
+  font-family: pacifico, cursive;
 }
