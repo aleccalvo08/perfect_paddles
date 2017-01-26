@@ -1,7 +1,26 @@
+@font-face {
+  font-family: 'karla' ;
+  src: url(../p1-assets/fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'karla' ;
+  src: url(../p1-assets/fonts/Karla-Bold.ttf);
+       font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Pacifico' ;
+  src: url(../p1-assets/fonts/Pacifico.ttf);
+}
+
+
+
 body {
   font-family: karla, sans-serif;
   font-size: 16px;
 }
+
 
 .marvel{
   color: white;
