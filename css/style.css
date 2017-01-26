@@ -170,14 +170,20 @@ main{
 footer{
   background: #222222;
   color: white;
-  padding: 3em 2em;
+  padding: 2em 2em 15em 2em;
 }
 
 footer p{
-  width: 20em;
-
+  float: left;
+  line-height: 25px;
 }
 
-footer p a{
+footer nav ul{
   color: white;
+  padding-bottom: 2em;
+  width: 12em;
+}
+
+footer nav ul a{
+  padding: 5em 0;
 }
