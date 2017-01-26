@@ -136,6 +136,10 @@ h2 {
   margin: 1em auto;
 }
 
+main{
+  margin: .5em;
+}
+
 .about {
   text-align: center;
 
@@ -157,4 +161,23 @@ h2 {
 
 .rentals{
   text-align: center;
+}
+
+.location{
+  text-align: center;
+}
+
+footer{
+  background: #222222;
+  color: white;
+  padding: 3em 2em;
+}
+
+footer p{
+  width: 20em;
+
+}
+
+footer p a{
+  color: white;
 }
