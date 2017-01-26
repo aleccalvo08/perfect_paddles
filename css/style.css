@@ -19,33 +19,8 @@
 body {
   font-family: karla, sans-serif;
   font-size: 16px;
-}
-
-
-.marvel{
-  color: white;
-  font-family: karla, sans-serif;
-}
-
-.uno{
-  color: white;
-  font-size: 20px;
-  font-family: karla, sans-serif;
-  text-transform: uppercase;
-
-}
-
-.dos{
-  color: white;
-  font-size: 50px;
-  font-family: Pacifico, cursive;
-
-
-}
-
-.tres{
-  font-size: 40px;
-
+  line-height: 1.25em;
+  box-sizing: border-box;
 }
 
 header {
@@ -53,69 +28,133 @@ header {
   color: white;
   text-align: center;
   padding-top: 10px;
+  height: 60px;
 }
 
 header img {
-  max-width: 30%;
+  max-width: 20%;
+  float: left;
+  height: 40px;
+  padding: 5px 20px;
 }
 
 nav ul {
-  padding-top: 1cm 0;
   list-style: none;
-  margin: 0 auto;
-
+  padding-left: 200px;
+  float: right;
 }
 
 nav ul li{
 text-transform: uppercase;
+font-family: karla, sans-serif;
+font-weight: bold;
 display: inline-block;
-padding: 20px 161px;
+padding: 0 20px;
 
 }
 
 nav ul li a{
   color: white;
-
+  text-decoration: none;
 }
 
-/*.kahon1{
-  background-color: black;
-  background-image: url("../p1-assets/images/kayak-bkgd.jpg");
-  background-position: center;
-  width: auto;
-  height: 750px;
+h1, h2{
   text-align: center;
-  margin: auto;
-}*/
+}
+
+p {
+  line-height: 2em;
+  margin-bottom: 2em;
+}
 
 .banner{
   background: linear-gradient(to top,
-    rgba(0, 0, 0, .35)0%,
-    rgba(0, 0, 0, .25)100%
+    rgba(0, 0, 0, .25)0%,
+    rgba(0, 0, 0, .15)100%
     ),
-    url("../p1-assets/images/kayak-bkgd.jpg")
+    url("../p1-assets/images/kayak-bkgd.jpg");
+  background-position: top center;
+  background-size: cover;
+  padding: 6em 0;
+  text-align: center;
 }
 
-.kahon2{
-  background-color: black;
-  opacity: 0.75;
+.site-title span{
+  display: block;
+  text-align: center;
+  color: white;
+  padding: .55em 0;
+  font-weight: normal;
 }
 
-.sbutton{
+.enjoy-the{
+  font-size: 1em;
+  font-family: karla, sans-serif;
+  text-transform: uppercase;
+
+}
+
+.great-outdoors, .from-the-water{
+  text-shadow: 2px 2px 5px #999;
+}
+
+.great-outdoors{
+  font-size: 3em;
+  font-family: Pacifico, cursive;
+}
+
+.from-the-water{
+  font-size: 2.25em;
+  font-family: Pacifico, cursive;
+}
+
+.banner p{
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+  margin: 1.5em auto;
+  margin-bottom: 3em;
+  padding: 1em;
+  width: 60%;
+}
+
+.banner a.btn-signup {
   background-color: #e2574c;
+  border-radius: 2em;
+  border: 2px solid #e2674c;
+  padding: 1em;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.15em;
+
+}
+
+h2 {
+  font-size: 3em;
+  font-family: Pacifico, cursive;
+  color: #666;
+  margin: 1em auto;
 }
 
 .about {
-  font-size: 30px;
-  font-family: pacifico, cursive;
+  text-align: center;
+
 }
 
-.about p{
-  font-family: karla;
-  font-size: 20px;
+.promo-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.rentals {
-  font-size: 30px;
-  font-family: pacifico, cursive;
+.promo-images img{
+    width: 32%;
+    margin: .5em 0;
+    box-shadow: 1px 0px 5px 1px #666;
+}
+
+
+.rentals{
+  text-align: center;
 }
