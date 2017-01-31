@@ -40,7 +40,6 @@ header img {
 
 nav ul {
   list-style: none;
-  padding-left: 200px;
   float: right;
 }
 
@@ -170,20 +169,35 @@ main{
 footer{
   background: #222222;
   color: white;
-  padding: 2em 2em 15em 2em;
+  padding: 4em 1em;
+  display: block;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
 }
 
-footer p{
-  float: left;
-  line-height: 25px;
+footer p {
+  width: 270px;
+  border: 2px solid red;
 }
 
-footer nav ul{
-  color: white;
-  padding-bottom: 2em;
-  width: 12em;
+footer nav ul {
+  width: 128px;
+  border: 2px solid red;
 }
 
-footer nav ul a{
-  padding: 5em 0;
+footer nav ul li{
+  margin-bottom: 10px;
+  margin-right: -20px;
+}
+
+footer nav ul li a i{
+  padding-right: 15px;
+  max-width: 10px;
+}
+
+footer nav ul li a{
+  text-transform: none;
 }
