@@ -78,10 +78,138 @@ header nav ul li a{
   background-position: top center;
   background-size: cover;
   text-align: center;
-  padding: 4em 0;
+  padding: 12em 0;
+  color: white;
 }
 
-.site-title {
+.site-title span{
   font-family: Pacifico, cursive;
+  font-weight: normal;
   color: white;
+  display: block;
+}
+
+.site-title .enjoy-the {
+  font-family: karla, sans-serif;
+  font-weight: normal;
+  font-size: .75em;
+  padding: .5em 0;
+  text-transform: uppercase;
+}
+
+.great-outdoors, .from-the-water {
+
+  text-shadow: 2px 2px 5px #999;
+}
+
+.great-outdoors {
+  font-size: 4.5em;
+  font-weight: normal;
+  padding: .5em 0;
+}
+
+.from-the-water {
+  font-size: 2em;
+  padding: .5em 0;
+}
+
+.banner p{
+  font-size: 1.75em;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 65%;
+  padding: .4em .75em;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  line-height: 1.5em;
+}
+
+.btn-signup {
+  background-color: #e2574c;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .80em;
+  padding: .75em 1em;
+  border-radius: 2em;
+}
+
+
+
+main h2{
+  font-family: Pacifico, cursive;
+  color: #565656;
+  padding: .75em 0;
+  font-size: 5em;
+  font-weight: normal;
+}
+
+main p{
+  font-size: .75em;
+  text-align: center;
+  color: #565656;
+  line-height: 1.5em;
+  margin: -.75em 1em;
+  margin-bottom: 4em;
+  font-weight: normal;
+}
+
+.promo-images img{
+  margin: .35em;
+}
+
+.rentals p{
+  text-align: left;
+  width: 80%;
+  margin: 1.75em .35em;
+}
+
+.rentals p a{
+  color: #e2574c;
+}
+
+.location p{
+  padding: 0 2em;
+}
+
+footer {
+  background: #2e2e2e;
+  text-align: center;
+  padding: 6em 0;
+  color: white;
+}
+
+footer p{
+  font-size: .75em;
+  display: block;
+
+}
+
+footer p a{
+  color: white;
+}
+
+footer nav ul li{
+  display: inline;
+}
+
+footer nav ul{
+  padding: 2em 0;
+}
+
+footer nav ul li a{
+  color: white;
+  font-size: 2em;
+}
+
+footer .location{
+  color:#999;
+}
+
+footer nav ul li a i{
+  padding: 0 .5em;
+
+}
+
+.social-sites {
+  display: none;
 }
