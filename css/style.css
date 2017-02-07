@@ -20,6 +20,7 @@ body {
   font-size: 16px;
   line-height: 1.25em;
   box-sizing: border-box;
+  color: #2d2d2d;
 }
 
 img {
@@ -143,27 +144,37 @@ header nav ul li a{
 }
 
 
+main {
+  margin: 0 auto;
+}
+
 
 main h2{
   font-family: Pacifico, cursive;
-  color: #565656;
+  color: #646464;
   padding: .75em 0;
-  font-size: 2.25em;
+  font-size: 2.5em;
   font-weight: normal;
 }
 
 main p{
-  font-size: .75em;
+  font-size: .8em;
   text-align: center;
   color: #565656;
-  line-height: 1.5em;
-  margin: -.75em 1em;
-  margin-bottom: 4em;
+  line-height: 1.75em;
+  margin: 0 .35em;
+  margin-bottom: 2em;
   font-weight: normal;
+
 }
 
-.promo-images img{
+.promo-images {
   margin: .35em;
+}
+
+.promo-images img {
+  margin: .25em 0;
+  box-shadow: 0px 3px 4px #888888;
 }
 
 .rentals p{
@@ -176,46 +187,53 @@ main p{
   color: #e2574c;
 }
 
-/*
+
 table {
   color: #2d2d2d;
-  font-size: 2.4em;
-  margin: 0 auto;
+  font-size: .9em;
   border: 1px solid #c8c8c8;
   width: 100%;
   text-align: center;
+  border-collapse: collapse;
 }
 
 thead th {
   background-color: #e6e6e6;
   border: 1px solid #c8c8c8;
-  padding: 1.5em .60em;
+  padding: .75em .60em;
 
 }
 
 td{
-  padding: 1.25em .5em;
+  padding: .75em .5em;
   border: 1px solid #c8c8c8;
+
 }
 
 .lefttable {
   text-align: left;
 }
-*/
+
 
 .location p{
   padding: 0 2em;
 }
 
+iframe {
+  padding-bottom: 2em;
+}
+
+
+
 footer {
   background: #2e2e2e;
   text-align: center;
-  padding: 6em 0;
+  padding: 3em 0;
   color: white;
 }
 
 footer p{
-  font-size: .75em;
+  font-size: .8em;
   display: block;
 
 }
@@ -229,12 +247,12 @@ footer nav ul li{
 }
 
 footer nav ul{
-  padding: 2em 0;
+  padding: .5em 0;
 }
 
 footer nav ul li a{
   color: white;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 footer .location{
@@ -242,8 +260,7 @@ footer .location{
 }
 
 footer nav ul li a i{
-  padding: 0 .5em;
-
+  padding: 0 .25em;
 }
 
 .social-sites {
