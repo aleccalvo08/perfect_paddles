@@ -21,6 +21,7 @@ body {
   line-height: 1.25em;
   box-sizing: border-box;
   color: #2d2d2d;
+  border: 1px solid red;
 }
 
 img {
@@ -220,7 +221,10 @@ td{
 }
 
 iframe {
+  margin-left: 5px;
   padding-bottom: 2em;
+  border-top: 2px solid red;
+
 }
 
 
@@ -230,6 +234,7 @@ footer {
   text-align: center;
   padding: 3em 0;
   color: white;
+
 }
 
 footer p{
@@ -268,61 +273,150 @@ footer nav ul li a i{
 }
 
 
-/*@media (min-width: 600px) {
+@media (min-width: 600px) {
 
   header {
     justify-content: space-between;
     flex-direction: row;
-    padding: 0;
+    padding-top: .5em;
+    margin: 0;
   }
 
  header img{
    padding: 0 1em;
-   width: 25%;
-   height: 60%;
-   margin: .5em 0;
+   width: 30%;
+   padding-bottom: .35em;
  }
 
  header nav {
-   width: 55%;
-   margin: -2.25em 0;
-   padding-top: .5em;
-
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 60%;
+   margin: 0;
+   height: 25px;
  }
 
  header nav ul {
-   font-size: 12px;
-   justify-content: center;
-   margin-left: 1em;
- }
-
- header nav ul li a{
+   font-size: 13px;
+   padding: 0;
 
  }
 
- header nav ul li {
-   padding: 0 1em;
- }
 
- .banner {
-   padding: 4em;
- }
 
  .site-title span{
-   padding: .4em 0;
+   padding: .5em 0;
 
  }
 
  .site-title .great-outdoors {
-   font-size: 2.5em;
+   font-size: 2.75em;
  }
 
  .site-title .from-the-water {
    padding-top: .75em;
-   font-size: 1.25em;
+   font-size: 1.5em;
  }
+
+ .banner a{
+ font-size: 1em;
 }
-*/
+
+  .banner p{
+    font-size: 1em;
+    margin-bottom: 2em;
+    width: 79%;
+
+  }
+
+  main .promo-images {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .promo-images img {
+
+    width: 31%;
+    height: 100%;
+    margin: 0 .35em;
+  }
+
+  .rentals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .rentals h2 {
+    width: 100%;
+    margin-bottom: .25em;
+  }
+
+  .rentals-description {
+    padding-top: 0;
+    width: 44%;
+
+
+  }
+
+  .rentals-description p {
+    margin: 1.25em 0;
+    margin-left: .5em;
+    margin-right: 0;
+
+  }
+
+  .rentals table {
+    margin: 1.25em 0;
+    margin-right: .5em;
+    width: 54%;
+    font-size: 14px;
+    margin-left: 0;
+  }
+
+  footer {
+    padding: 1.75em 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  footer article {
+    text-align: left;
+    padding: 0 .5em;
+  }
+
+  footer nav {
+    margin-top: -.75em;
+  }
+
+  footer nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0 1.5em;
+    padding-bottom: .25em;
+  }
+
+  footer nav ul li a i {
+    width: 20px;
+  }
+
+  .social-sites {
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 0 .5em;
+
+  }
+
+  iframe {
+    margin-left: 8px;
+  }
+
+}
+
 
 
 /**
