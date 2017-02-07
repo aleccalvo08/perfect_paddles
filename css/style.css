@@ -15,7 +15,6 @@
 }
 
 
-
 body {
   font-family: karla, sans-serif;
   font-size: 16px;
@@ -42,29 +41,37 @@ header {
   justify-content: center;
 }
 
+
 header img {
 max-width: 50%;
-margin: 10px 0;
-width: 100%
+
+height: 30%;
+width: 100%;
+}
+
+header nav {
+    width: 100%;
+    margin-bottom: -.5em;
 }
 
 header nav ul{
+  display: flex;
   list-style: none;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  font-size: 38px;
-  width: 100%;
+  font-size: 14px;
   font-weight: bold;
-  margin: 40px 0;
+  justify-content: center;
+  padding: 0 1em;
+
 }
 
-
 header nav ul li{
-  padding: 0 60px;
+  padding: 0 1em;
+
 }
 
 header nav ul li a{
+
   color: white;
   text-decoration: none;
 }
@@ -78,8 +85,10 @@ header nav ul li a{
   background-position: top center;
   background-size: cover;
   text-align: center;
-  padding: 12em 0;
+  padding: 3em 0;
+  padding-bottom: 6em;
   color: white;
+
 }
 
 .site-title span{
@@ -103,22 +112,22 @@ header nav ul li a{
 }
 
 .great-outdoors {
-  font-size: 4.5em;
+  font-size: 2em;
   font-weight: normal;
   padding: .5em 0;
 }
 
 .from-the-water {
-  font-size: 2em;
+  font-size: 1.5em;
   padding: .5em 0;
 }
 
 .banner p{
-  font-size: 1.75em;
+  font-size: .8em;
   background-color: rgba(0, 0, 0, 0.5);
   width: 65%;
   padding: .4em .75em;
-  margin: 2em auto;
+  margin: .75em auto;
   margin-bottom: 3em;
   line-height: 1.5em;
 }
@@ -128,7 +137,7 @@ header nav ul li a{
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: .80em;
+  font-size: 1em;
   padding: .75em 1em;
   border-radius: 2em;
 }
@@ -139,7 +148,7 @@ main h2{
   font-family: Pacifico, cursive;
   color: #565656;
   padding: .75em 0;
-  font-size: 5em;
+  font-size: 2.25em;
   font-weight: normal;
 }
 
@@ -166,6 +175,33 @@ main p{
 .rentals p a{
   color: #e2574c;
 }
+
+/*
+table {
+  color: #2d2d2d;
+  font-size: 2.4em;
+  margin: 0 auto;
+  border: 1px solid #c8c8c8;
+  width: 100%;
+  text-align: center;
+}
+
+thead th {
+  background-color: #e6e6e6;
+  border: 1px solid #c8c8c8;
+  padding: 1.5em .60em;
+
+}
+
+td{
+  padding: 1.25em .5em;
+  border: 1px solid #c8c8c8;
+}
+
+.lefttable {
+  text-align: left;
+}
+*/
 
 .location p{
   padding: 0 2em;
@@ -213,3 +249,137 @@ footer nav ul li a i{
 .social-sites {
   display: none;
 }
+
+
+/*@media (min-width: 600px) {
+
+  header {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0;
+  }
+
+ header img{
+   padding: 0 1em;
+   width: 25%;
+   height: 60%;
+   margin: .5em 0;
+ }
+
+ header nav {
+   width: 55%;
+   margin: -2.25em 0;
+   padding-top: .5em;
+
+ }
+
+ header nav ul {
+   font-size: 12px;
+   justify-content: center;
+   margin-left: 1em;
+ }
+
+ header nav ul li a{
+
+ }
+
+ header nav ul li {
+   padding: 0 1em;
+ }
+
+ .banner {
+   padding: 4em;
+ }
+
+ .site-title span{
+   padding: .4em 0;
+
+ }
+
+ .site-title .great-outdoors {
+   font-size: 2.5em;
+ }
+
+ .site-title .from-the-water {
+   padding-top: .75em;
+   font-size: 1.25em;
+ }
+}
+*/
+
+
+/**
+ * desktop breakpoint: 1024px
+ **/
+ /*
+ @media (min-width: 1024px) {
+
+
+ header {
+   justify-content: space-between;
+   flex-direction: row;
+   padding: 0;
+ }
+
+header img{
+
+  padding: 0 1em;
+  width: 20%;
+  height: 50%;
+  margin: 1em 0;
+}
+
+header nav {
+  width: 55%;
+  margin: -.75em 0;
+  margin-right: 2em;
+}
+
+header nav ul {
+
+  font-size: 16px;
+  padding: 0 1em;
+  justify-content: flex-end;
+}
+
+header nav ul li a{
+
+  margin: 1em;
+
+}
+
+header nav ul li {
+  padding: 0 .5em;
+
+}
+
+.banner {
+  padding: 5em 0;
+}
+
+.site-title span{
+  padding: .5em 0;
+}
+
+.site-title .enjoy-the {
+  font-size: 1em;
+
+}
+
+.site-title .great-outdoors {
+  font-size: 5.75em;
+  padding-bottom: .65em;
+}
+
+.banner p{
+  font-size: 1.25em;
+  padding: .4em 0;
+  width: 55%;
+
+}
+
+.btn-signup{
+  font-size: 1.25em;
+}
+
+*/
