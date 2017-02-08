@@ -193,9 +193,10 @@ table {
   color: #2d2d2d;
   font-size: .9em;
   border: 1px solid #c8c8c8;
-  width: 100%;
+  width: 97%;
   text-align: center;
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 thead th {
@@ -406,9 +407,13 @@ footer nav ul li a i{
   .social-sites {
     display: inline;
     font-size: 12px;
-    font-weight: normal;
+    font-weight: bold;
     padding: 0 .5em;
 
+  }
+
+  nav ul li a{
+    text-decoration: none;
   }
 
   iframe {
