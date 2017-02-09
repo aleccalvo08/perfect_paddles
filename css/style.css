@@ -36,7 +36,7 @@ header {
   background-color: black;
   color: white;
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,15 +44,13 @@ header {
 
 
 header img {
-max-width: 50%;
-
-height: 30%;
+max-width: 45%;
+height: 10%;
 width: 100%;
 }
 
 header nav {
     width: 100%;
-    margin-bottom: -.5em;
 }
 
 header nav ul{
@@ -63,6 +61,7 @@ header nav ul{
   font-weight: bold;
   justify-content: center;
   padding: 0 1em;
+  padding-top: 1em;
 
 }
 
@@ -86,7 +85,7 @@ header nav ul li a{
   background-position: top center;
   background-size: cover;
   text-align: center;
-  padding: 3em 0;
+  padding: 4em 0;
   padding-bottom: 6em;
   color: white;
 
@@ -102,7 +101,7 @@ header nav ul li a{
 .site-title .enjoy-the {
   font-family: karla, sans-serif;
   font-weight: normal;
-  font-size: .75em;
+  font-size: 1.15em;
   padding: .5em 0;
   text-transform: uppercase;
 }
@@ -113,14 +112,15 @@ header nav ul li a{
 }
 
 .great-outdoors {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: normal;
   padding: .5em 0;
 }
 
 .from-the-water {
-  font-size: 1.5em;
+  font-size: 2em;
   padding: .5em 0;
+  padding-bottom: 1em;
 }
 
 .banner p{
@@ -143,6 +143,9 @@ header nav ul li a{
   border-radius: 2em;
 }
 
+.btn-signup:hover {
+  background-color: #b64036;
+}
 
 main {
   margin: 0 auto;
@@ -152,7 +155,7 @@ main {
 main h2{
   font-family: Pacifico, cursive;
   color: #646464;
-  padding: .75em 0;
+  padding: 1.5em 0;
   font-size: 2.5em;
   font-weight: normal;
 }
@@ -162,10 +165,9 @@ main p{
   text-align: center;
   color: #565656;
   line-height: 1.75em;
-  margin: 0 .35em;
-  margin-bottom: 2em;
+  margin: 0 5px;
+  margin-bottom: 3em;
   font-weight: normal;
-
 }
 
 .promo-images {
@@ -174,17 +176,22 @@ main p{
 
 .promo-images img {
   margin: .25em 0;
-  box-shadow: 0px 3px 4px #888888;
+  box-shadow: 2px 3px 4px #888888;
 }
 
 .rentals p{
   text-align: left;
   width: 80%;
-  margin: 1.75em .35em;
+  margin: 0 .35em;
+  margin-bottom: 1.35em;
 }
 
 .rentals p a{
   color: #e2574c;
+}
+
+.rentals p a:hover {
+  color: #b64036;
 }
 
 
@@ -209,6 +216,10 @@ td{
   padding: .75em .5em;
   border: 1px solid #c8c8c8;
 
+}
+
+tbody tr td:hover {
+  background-color: #fbf6d9;
 }
 
 .lefttable {
@@ -240,6 +251,7 @@ footer {
 footer p{
   font-size: .8em;
   display: block;
+  padding: .5em 0;
 
 }
 
@@ -252,7 +264,7 @@ footer nav ul li{
 }
 
 footer nav ul{
-  padding: .5em 0;
+  padding: 1em 0;
 }
 
 footer nav ul li a{
@@ -280,12 +292,13 @@ footer nav ul li a i{
     flex-direction: row;
     padding-top: .5em;
     margin: 0;
+    padding-bottom: 0;
   }
 
  header img{
    padding: 0 1em;
    width: 30%;
-   padding-bottom: .35em;
+   padding-bottom: .5em;
  }
 
  header nav {
@@ -294,7 +307,7 @@ footer nav ul li a i{
    align-items: center;
    width: 60%;
    margin: 0;
-   height: 25px;
+   height: 30;
  }
 
  header nav ul {
@@ -311,12 +324,12 @@ footer nav ul li a i{
  }
 
  .site-title .great-outdoors {
-   font-size: 2.75em;
+   font-size: 4em;
  }
 
  .site-title .from-the-water {
    padding-top: .75em;
-   font-size: 1.5em;
+   font-size: 2em;
  }
 
  .banner a{
@@ -325,9 +338,14 @@ footer nav ul li a i{
 
   .banner p{
     font-size: 1em;
-    margin-bottom: 2em;
-    width: 79%;
+    margin: 2.5em auto;
+    width: 77%;
 
+  }
+
+  main p {
+    margin: 0 2.5em;
+    margin-bottom: 3em;
   }
 
   main .promo-images {
@@ -356,22 +374,19 @@ footer nav ul li a i{
 
   .rentals-description {
     padding-top: 0;
-    width: 44%;
-
+    width: 46%;
 
   }
 
   .rentals-description p {
-    margin: 1.25em 0;
-    margin-left: .5em;
+    margin-left: .75em;
     margin-right: 0;
 
   }
 
   .rentals table {
-    margin: 1.25em 0;
-    margin-right: .5em;
-    width: 54%;
+    margin-right: .75em;
+    width: 52%;
     font-size: 14px;
     margin-left: 0;
   }
@@ -426,7 +441,7 @@ footer nav ul li a i{
 /**
  * desktop breakpoint: 1024px
  **/
- /*
+
  @media (min-width: 1024px) {
 
 
@@ -436,30 +451,27 @@ footer nav ul li a i{
    padding: 0;
  }
 
-header img{
 
-  padding: 0 1em;
-  width: 20%;
+header img{
+  padding: .5em 1.5em;
+  width: 22%;
   height: 50%;
-  margin: 1em 0;
 }
 
 header nav {
+  display: flex;
+  justify-content: flex-end;
   width: 55%;
-  margin: -.75em 0;
-  margin-right: 2em;
 }
 
 header nav ul {
 
   font-size: 16px;
-  padding: 0 1em;
-  justify-content: flex-end;
 }
 
 header nav ul li a{
 
-  margin: 1em;
+  margin: .8em;
 
 }
 
@@ -477,24 +489,97 @@ header nav ul li {
 }
 
 .site-title .enjoy-the {
-  font-size: 1em;
+  font-size: 1.35em;
 
 }
 
 .site-title .great-outdoors {
-  font-size: 5.75em;
+  font-size: 6.5em;
   padding-bottom: .65em;
+}
+
+.site-title .from-the-water {
+  font-size: 2.75em;
 }
 
 .banner p{
   font-size: 1.25em;
   padding: .4em 0;
-  width: 55%;
+  width: 57%;
 
 }
 
-.btn-signup{
+.banner .btn-signup{
   font-size: 1.25em;
 }
 
-*/
+main h2 {
+  font-size: 3em;
+  padding-bottom: 1em;
+}
+
+main p {
+  font-size: 1em;
+}
+
+main .about p {
+  width: 70%;
+  margin: 2em auto;
+}
+
+.promo-images img {
+  margin: 0 .5em;
+}
+
+.rentals p {
+  margin-left: 1.5em;
+  width: 95%;
+}
+
+.rentals table {
+  margin-right: 1.5em;
+  width: 48%;
+}
+
+table thead {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.location p{
+  margin: 1.25em 0;
+}
+
+iframe {
+  margin-left: 1.5em;
+  width: 95%;
+  margin-bottom: 1em;
+}
+
+footer {
+  font-size: 1.25em;
+  padding: 3em 0;
+}
+
+footer p {
+  margin-left: 1em;
+  margin-bottom: .5em;
+}
+
+footer nav {
+  margin-right: 1.75em;
+}
+
+footer nav ul li{
+  padding-bottom: .5em;
+}
+
+footer nav ul li a {
+  font-size: .85em;
+}
+
+.social-sites{
+  font-size: .9em;
+  font-weight: normal;
+  padding-left: .5em;
+}
