@@ -70,6 +70,10 @@ header nav ul li{
 
 }
 
+header nav ul li a:hover {
+  color: #e2574c;
+}
+
 header nav ul li a{
 
   color: white;
@@ -282,6 +286,10 @@ footer nav ul li a i{
 
 .social-sites {
   display: none;
+}
+
+.social-sites:hover {
+  color: #e2754c;
 }
 
 
