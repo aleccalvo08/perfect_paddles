@@ -284,11 +284,11 @@ footer nav ul li a i{
   padding: 0 .25em;
 }
 
-.social-sites {
+#social-sites {
   display: none;
 }
 
-.social-sites:hover {
+#social-sites:hover {
   color: #e2754c;
 }
 
@@ -426,7 +426,7 @@ footer nav ul li a i{
     width: 20px;
   }
 
-  .social-sites {
+  #social-sites {
     display: inline;
     font-size: 12px;
     font-weight: bold;
@@ -586,7 +586,7 @@ footer nav ul li a {
   font-size: .85em;
 }
 
-.social-sites{
+#social-sites{
   font-size: .9em;
   font-weight: normal;
   padding-left: .5em;
